@@ -24,7 +24,7 @@ export const cssVariableString = `const css = "`;
 export const cssBlockRE = /[^}]*\{[^{]*\}/g;
 
 export const cssLangRE = new RegExp(cssLangs);
-export const ruleRE = /(\w+-)*\w+:/;
+export const ruleRE = /(--)?(\w+-)*\w+:/;
 export const cssValueRE = /(\s?[a-z0-9]+\s)*/;
 export const safeEmptyRE = /\s?/;
 export const importSafeRE = /(\s*!important)?/;
